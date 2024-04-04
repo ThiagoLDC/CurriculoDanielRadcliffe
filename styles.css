@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    margin: 15px;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue';
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.page {
+    display: flex;
+    width: 21cm;
+    height: 29.7cm;
+    background-color: #192934;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.content-left {
+    width: 50%;
+    height: 100%;
+    padding: 28px;
+    background-color: #fff;
+}
+
+.content-left h1, .content-left h2 {
+    color: #192934;
+}
+
+.content-left hr {
+    border: 0;
+    height: 5px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #192934;
+}
+
+.content-left h2 {
+    margin-top: 25px;
+}
+
+.moldura-imagem {
+    margin-bottom: 20px;
+    border: 16px solid #192934;
+}
+
+.moldura-imagem img {
+    display: block;
+    width: 100%;
+}
+
+.content-right {
+    width: 50%;
+    color: #fff;
+    padding-left: 25px;
+}
+
+.box {
+    padding: 8px;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    height: calc(25% - 49px);
+}
